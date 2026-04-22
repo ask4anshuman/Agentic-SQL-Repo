@@ -3,7 +3,7 @@
 
 -- Update salary for a specific employee
 UPDATE employees
-SET salary = 78000
+SET salary = 10000
 WHERE employee_id = 1001;
 
 -- Update multiple columns
@@ -14,4 +14,4 @@ WHERE employee_id = 1001;
 -- Bulk update with condition
 UPDATE employees
 SET salary = salary * 1.10
-WHERE hire_date < '2023-01-01';
+WHERE hire_date < '2026-01-01';
