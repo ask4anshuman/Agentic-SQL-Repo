@@ -3,7 +3,7 @@
 
 -- Add new column to employees table
 ALTER TABLE employees
-ADD COLUMN phone_number VARCHAR(15);
+ADD COLUMN phone_number VARCHAR(8);
 
 -- Add new column with default value
 ALTER TABLE employees
