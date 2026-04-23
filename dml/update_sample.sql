@@ -14,4 +14,4 @@ WHERE employee_id = 1001;
 -- Bulk update with condition
 UPDATE employees
 SET salary = salary * 1.10
-WHERE hire_date < '2026-01-01';
+WHERE hire_date < '2000-01-01';
