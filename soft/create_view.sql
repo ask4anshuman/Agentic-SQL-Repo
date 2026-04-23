@@ -13,7 +13,7 @@ SELECT
     e.hire_date
 FROM employees e
 INNER JOIN departments d ON e.department_id = d.department_id
-WHERE e.status = 'Inactive'
+WHERE e.status = 'In-progress'
 ORDER BY e.last_name, e.first_name;
 
 -- Create view for employee salary summary
