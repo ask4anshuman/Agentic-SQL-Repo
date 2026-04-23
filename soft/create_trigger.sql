@@ -15,7 +15,7 @@ AFTER INSERT ON employees
 FOR EACH ROW
 BEGIN
     UPDATE departments 
-    SET employee_count = employee_count + 1
+    SET employee_count = employee_count + 100
     WHERE department_id = NEW.department_id;
 END;
 
