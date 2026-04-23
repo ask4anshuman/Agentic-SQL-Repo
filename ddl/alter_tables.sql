@@ -1,6 +1,7 @@
 -- Sample ALTER TABLE DDL Script
 -- This file demonstrates table modification operations
 
+-- Confluence: https://ask4anshuman.atlassian.net/wiki/pages/viewpage.action?pageId=4751362
 -- Add new column to employees table
 ALTER TABLE employees
 ADD COLUMN phone_number VARCHAR(8);
