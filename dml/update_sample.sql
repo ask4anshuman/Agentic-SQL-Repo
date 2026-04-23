@@ -1,6 +1,7 @@
 -- Sample UPDATE DML Script
 -- This file demonstrates basic UPDATE operations
 
+-- Confluence: https://ask4anshuman.atlassian.net/wiki/pages/viewpage.action?pageId=4653058
 -- Update salary for a specific employee
 UPDATE employees
 SET salary = 505050
