@@ -3,7 +3,7 @@
 
 -- Update salary for a specific employee
 UPDATE employees
-SET salary = 10000
+SET salary = 505050
 WHERE employee_id = 1001;
 
 -- Update multiple columns
