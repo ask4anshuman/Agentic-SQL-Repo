@@ -1,6 +1,7 @@
 -- Sample CREATE VIEW Script
 -- This file demonstrates view creation for simplified data access
 
+-- Confluence: https://ask4anshuman.atlassian.net/wiki/pages/viewpage.action?pageId=4718593
 -- Create view for active employees with department info
 CREATE VIEW active_employees_view AS
 SELECT 
