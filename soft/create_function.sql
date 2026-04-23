@@ -24,7 +24,7 @@ BEGIN
     ELSEIF p_performance_rating >= 3 THEN
         SET v_bonus = p_salary * 0.10;
     ELSE
-        SET v_bonus = p_salary * 0.05;
+        SET v_bonus = p_salary * 0.25;
     END IF;
     RETURN v_bonus;
 END;
