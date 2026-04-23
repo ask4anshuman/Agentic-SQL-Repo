@@ -1,6 +1,7 @@
 -- Sample CREATE TRIGGER Script
 -- This file demonstrates trigger creation for automated actions
 
+-- Confluence: https://ask4anshuman.atlassian.net/wiki/pages/viewpage.action?pageId=4685875
 -- Create trigger to update modified timestamp on employee update
 CREATE TRIGGER trg_update_employee_timestamp
 BEFORE UPDATE ON employees
