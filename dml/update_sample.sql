@@ -8,7 +8,7 @@ WHERE employee_id = 1001;
 
 -- Update multiple columns
 UPDATE employees
-SET email = 'john.d.doe@company.com', salary = 80000
+SET email = 'john.d.doe@company.com', salary = 10000
 WHERE employee_id = 1001;
 
 -- Bulk update with condition

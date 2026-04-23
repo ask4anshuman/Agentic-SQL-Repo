@@ -15,7 +15,7 @@ DROP COLUMN performance_rating;
 
 -- Modify column properties
 ALTER TABLE employees
-MODIFY COLUMN salary DECIMAL(12, 2);
+MODIFY COLUMN salary DECIMAL(14, 2);
 
 -- Add index for performance optimization
 CREATE INDEX idx_employee_department
