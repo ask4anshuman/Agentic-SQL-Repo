@@ -1,6 +1,7 @@
 -- Department Performance + Risk Dashboard (MySQL 8+)
 -- One large SELECT using multiple CTEs, joins, translations, and filters.
 -- Tables: employees, departments, employee_enriched_target, etl_run_audit, etl_employee_rejects
+-- Confluence: https://ask4anshuman.atlassian.net/wiki/pages/viewpage.action?pageId=5898260
 
 WITH
 latest_success_run AS (
