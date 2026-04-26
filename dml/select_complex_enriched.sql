@@ -1,6 +1,7 @@
 -- Complex and Large SELECT SQL (MySQL 8+)
 -- Features used:
 --   - Multiple CTEs
+-- Confluence: https://ask4anshuman.atlassian.net/wiki/pages/viewpage.action?pageId=5931034
 --   - Multi-table joins
 --   - Column translation / business labels
 --   - Window functions
