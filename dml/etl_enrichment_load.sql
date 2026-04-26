@@ -476,7 +476,7 @@ SET
     ),
     loaded_row_count = (SELECT COUNT(*) FROM tmp_employee_final),
     finished_at = NOW(),
-    status = 'SUCCESS',
+    status = 'FAILED',
     message = 'ETL completed with cleansing, dedupe, enrichment, and upsert.'
 WHERE run_id = @run_id;
 
