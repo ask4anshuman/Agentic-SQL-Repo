@@ -1,6 +1,7 @@
 -- Advanced ETL + Enrichment Load Script (MySQL 8+)
 -- Purpose:
 --   1) Clean, validate, and deduplicate staged employee data
+-- Confluence: https://ask4anshuman.atlassian.net/wiki/pages/viewpage.action?pageId=5931010
 --   2) Enrich records with business logic and department mapping
 --   3) Upsert into employees and into an enriched target table
 --
