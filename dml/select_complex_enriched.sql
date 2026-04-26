@@ -273,7 +273,7 @@ CROSS JOIN (
 ) ls
 WHERE
     COALESCE(jm.standardized_status, jm.status) IN ('Active', 'ACTIVE', 'On Leave', 'ON LEAVE')
-    AND COALESCE(jm.enriched_salary, jm.current_salary) >= 30000
+    AND COALESCE(jm.enriched_salary, jm.current_salary) >= 100
     AND jm.service_months >= 6
     AND (
         jm.geo_region IN ('US-East', 'US-West', 'Europe', 'India')
