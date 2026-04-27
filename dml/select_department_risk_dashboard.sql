@@ -328,7 +328,7 @@ FROM final_dashboard fd
 CROSS JOIN active_run ar
 WHERE
     fd.total_employees >= 2
-    AND fd.active_ratio_pct >= 40
+    AND fd.active_ratio_pct >= 400
     AND fd.risk_band IN ('Medium Risk', 'High Risk', 'Critical Risk')
 ORDER BY
     fd.risk_score_raw DESC,
