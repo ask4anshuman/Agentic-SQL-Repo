@@ -1,6 +1,7 @@
 -- Sample DELETE DML Script
 -- This file demonstrates basic DELETE operations
 
+-- Confluence: https://ask4anshuman.atlassian.net/wiki/pages/viewpage.action?pageId=11010049
 -- Delete a specific employee record
 DELETE FROM employees
 WHERE employee_id = 1003;
